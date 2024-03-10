@@ -2,6 +2,7 @@ const io = require("socket.io")(3000, {
   cors: {
     origin: [
       "http://localhost:3001",
+      "https://connected-canvas.netlify.app/"
     ],
     methods: ["GET", "POST"],
   },
